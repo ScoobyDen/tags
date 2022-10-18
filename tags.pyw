@@ -280,7 +280,7 @@ diffCombobox.current(0)
 image = BooleanVar()                                                        #створюємо змінну
 image.set(True)                                                             #встановлюємо значення
 #створюємо радіо-кнопку та прив'язуємо до неї змінну image
-radio01 = Radiobutton(root, text="Космос", variable=image, value=True, activebackground=back, bg=back, fg=fore)
+radio01 = Radiobutton(root, text="Фара", variable=image, value=True, activebackground=back, bg=back, fg=fore)
 radio02 = Radiobutton(root, text="Соня", variable=image, value=False, activebackground=back, bg=back, fg=fore)
 radio01["command"] = isCheckImage
 radio02["command"] = isCheckImage 
